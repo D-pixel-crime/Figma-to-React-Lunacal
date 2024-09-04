@@ -2,6 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
+.background {
+  position: relative;
+
+  background: linear-gradient(180deg, #373E44 -100%, #191B1F 100%);
+  box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 28px;
+}
+
+.box {
+  background: #363C43;
+  box-shadow: 5.67px 5.67px 3.78px rgba(0, 0, 0, 0.4);
+  border-radius: 18.8904px;
+}
+
+.add-image {
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: -0.5px -0.5px 6.9px rgba(255, 255, 255, 0.25), 9px 10px 7.1px rgba(0, 0, 0, 0.4), inset 0px 0px 48.9064px rgba(255, 255, 255, 0.05), inset 0px 3.26043px 3.26043px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(52.28px);
+  border-radius: 104px;
+}
+
+.arrow {
+  background: linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%);
+  box-shadow: -5px -3px 30px -10px #96BEE7, 4px 5px 30px 5px #101213;
+}
+
+.h2-selected {
+  background: #28292F;
+  box-shadow: -8.43333px -16.8667px 50.6px -16.8667px #485B71, 13.4933px 16.8667px 67.4667px 8.43333px #0A0A0A;
+  border-radius: 16px;
+}
+
+.line-below {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), linear-gradient(180deg, rgba(40, 40, 40, 0.1) 0%, rgba(248, 248, 248, 0.1) 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.33);
+  backdrop-filter: blur(4.91866px);
+  border-radius: 2.45933px;
+  width: 85%;
+  height: 0.3rem;
+}
+
+.side-line {
+  position: absolute;
+  width: 6px;
+  height: 64px;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(177.32deg, #888989 5.6%, #4A4E54 93.28%);
+  box-shadow: 4px 4px 4.9px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.side-boxes {
+  position: absolute;
+  top: 50%;
+  left: 0.625rem;
+  transform: translateY(-50%);
+}
+
 @layer utilities {
   .flex-center {
     @apply flex justify-center items-center;
