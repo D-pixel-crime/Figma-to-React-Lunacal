@@ -27,9 +27,9 @@ const Box2 = () => {
   const displayedImages = images.slice(currentIndex * 3, currentIndex * 3 + 3); // Show 3 images at a time
 
   return (
-    <div className="flex-center flex-col gap-5 w-full max-[800px]:text-sm">
-      <div className="flex-col flex-center gap-12 box relative px-12 py-6 w-full max-[800px]:text-sm">
-        <div className="flex-center text-[#888989] w-fit top-2.5 left-2.5 absolute max-[800px]:text-sm">
+    <div className="flex-center flex-col gap-5 w-full text-sm">
+      <div className="flex-col flex-center gap-12 box relative px-12 py-6 w-full text-sm">
+        <div className="flex-center text-[#888989] w-fit top-2.5 left-2.5 absolute text-sm">
           <CircleHelp size={20} />
         </div>
         <div className="side-boxes flex-center flex-col gap-[1.5px]">
@@ -46,9 +46,9 @@ const Box2 = () => {
             <div className="bg-[#4A4E54] h-[0.5rem] w-[0.5rem]"></div>
           </div>
         </div>
-        <div className="flex items-center justify-between w-full max-[800px]:text-sm">
+        <div className="flex items-center justify-between w-full text-sm">
           <div
-            className="bg-[#171717] rounded-[15px] flex-center px-10 py-3 text-lg max-[800px]:text-sm"
+            className="bg-[#171717] rounded-[15px] flex-center px-10 py-3 text-lg text-sm"
             style={{
               boxShadow:
                 "inset 0px 4.96001px 12.4px 2.48px rgba(0, 0, 0, 0.25)",
@@ -86,7 +86,7 @@ const Box2 = () => {
             </div>
           </div>
         </div>
-        <div className="w-full text-[#969696] grid grid-cols-3 min-[1240px]:gap-4 gap-1 max-[800px]:text-sm">
+        <div className="w-full text-[#969696] grid grid-cols-3 min-[1240px]:gap-4 gap-1 text-sm">
           {displayedImages.length > 0 ? (
             displayedImages.map((image, index) => (
               <div className="flex-center" key={index}>

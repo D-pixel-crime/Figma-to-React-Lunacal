@@ -23,10 +23,10 @@ function App() {
       color="#363C4F"
     />
   ) : (
-    <div className="min-h-screen max-w-screen bg-black text-white max-[800px]:text-sm">
-      <div className="background w-full min-h-screen grid min-[1325px]:grid-cols-2 max-[1325px]:grid-cols-3 gap-20 lg:px-28 lg:py-14 md:px-10 md:py-6 px-8 py-6 max-[800px]:text-sm">
+    <div className="min-h-screen max-w-screen bg-black text-white text-sm">
+      <div className="background w-full min-h-screen grid min-[1325px]:grid-cols-2 max-[1325px]:grid-cols-3 gap-20 lg:px-28 lg:py-14 md:px-10 md:py-6 px-8 py-6 text-sm">
         <div className="col-start-1"></div>
-        <div className="col-start-2 flex-center flex-col gap-5 w-full max-[1325px]:col-span-2 max-[800px]:text-sm">
+        <div className="col-start-2 flex-center flex-col gap-5 w-full max-[1325px]:col-span-2 text-sm">
           <Box1 />
           <div className="line-below"></div>
           <Box2 />
