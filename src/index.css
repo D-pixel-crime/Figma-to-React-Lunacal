@@ -67,3 +67,13 @@
     @apply flex justify-center items-center;
   }
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: darkslategray;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(106, 107, 106);
+  border-radius: 10px;
+}
